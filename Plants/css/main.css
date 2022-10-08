@@ -1,0 +1,76 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Anonymous Pro', monospace;
+	font-family: 'EB Garamond', serif;
+	font-family: 'Libre Baskerville', serif;
+	color: 000;
+	font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.header {
+	background: url('../img/header-bg.jpg') no-repeat center top / cover;
+	padding-top: 118px;
+}
+
+h1 {
+	color: #FFF;
+	font-family: 'Anonymous Pro';
+	font-size: 171px;
+	font-style: normal;
+	font-weight: 400;
+	justify-content: center;
+}
+
+.container {
+	width: 1172px;
+	height: 780px;
+	margin: 0 auto; /*по центру*/
+}
+
+#logo {
+	text-align: center; /*по центру*/
+	height: 240px;
+}
+
+.search {
+	height: 88px;
+}
+
+.menu {
+	height: 95px;
+	display: flex; /*в рядок внутри*/
+}
+
+p {
+	font-family: 'Libre Baskerville';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	color: #FFF;
+	margin-right: 34px;
+}
+
+.search {
+	border: 1px solid #FFF;
+	/*padding-left: 34px;*/
+
+}
+
+#search {
+	margin: 0 auto; /*убирает отступ*/
+	display:inline-block; /*по содержимому*/
+	/*text-align: center;*/
+	margin-top: 24px;
+	margin-left: 34px;
+}
+
+#strelochka {
+	margin-left: 879px;
+}
